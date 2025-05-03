@@ -39,7 +39,7 @@ async function checkWeather(city) {
         weatherIcon.src = "images/default.png"; // Fallback icon
     }
 
-    document.querySelector(".weather").style.display = "block";
+    
 }
 
 SearchBtn.addEventListener("click", () => {
