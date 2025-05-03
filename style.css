@@ -14,7 +14,7 @@ body{
     max-width: 470px;
     background: linear-gradient(135deg, #00feba, #50548a);
     color: #fff;
-    margin: 100px auto 0;
+    margin: 50px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
@@ -53,7 +53,7 @@ body{
     width: 16px;
 }
 
-.weather .weather-icon{
+.weather .weather_icon{
     width: 170px;
     margin-top: 30px;
 }
@@ -90,4 +90,8 @@ body{
 .humidity .wind{
     font-size: 28px;
     margin-top: -6px;
+}
+
+.weather{
+    display: none;
 }
