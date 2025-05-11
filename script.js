@@ -38,7 +38,7 @@ async function checkWeather(city) {
     } else {
         weatherIcon.src = "images/default.png"; // Fallback icon
     }
-
+    document.querySelector(".weather").style.display = "block"
     
 }
 
@@ -47,4 +47,4 @@ SearchBtn.addEventListener("click", () => {
 });
 
 // Optional: check weather for default city on load
-checkWeather("dhaka");
+
